@@ -4,3 +4,5 @@ Course note of *Introduction to the Theory of Computation-2024 Spring* in Comput
 ***
 ## List
 - **ITC(1)**  ---  *Course content, Big-O Notation, Alphabets & Languages, Encoding of Problems*
+
+- **ITC(2)**  ---  *Language Relationships, Finite Automaton, DFA & NFA*
