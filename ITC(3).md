@@ -46,7 +46,7 @@ It is easy to verify $L(Q')=\bar{A}$​.
 eg. 
 
 | **Odd numbers**                                              | $(0\cup1\cup...\cup9)^*(1\cup3\cup5\cup7\cup9)$ |
-| ------------------------------------------------------------ | ----------------------------------------------- |
+| :----------------------------------------------------------- | ----------------------------------------------- |
 | **Strings that start with 0 or 1, then append zero or more 0s** | $(0\cup1)0^*$                                   |
 | $\Sigma^*$                                                   | $(0\cup1)^*$                                    |
 | **Strings that start with a 0 or end with a 1**              | $(0\Sigma^*)\cup(\Sigma^*1)$                    |
