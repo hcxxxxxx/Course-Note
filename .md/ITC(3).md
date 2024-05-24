@@ -15,7 +15,9 @@ $$
 $$
 
 3. $q_0'=E(\{q_0\})$
-4. $F'=\{R\in Q'|R\cap F\neq \phi\}$
+4. $F'=\{R\in Q'|R\cap F\neq \phi\}$​
+
+***
 
 *Cor 2.10* **A language is regular $\Harr$ Some NFA recognizes it.**
 
@@ -25,11 +27,15 @@ $$
 
 *Thm 2.11* **The class of regular languages is closed under concatenation.**
 
-*Proof:* Assume that $L_1$ and $L_2$ are two regular languages, and NFA $N_1$ and $N_2$ recognizes them respectively. Construct a  new NFA to accept $L_1L_2$ by using multiple $\epsilon \atop \rightarrow$ to connect the accept state(s) of $N_1$ and the start state of $N_2$. The constructed NFA $N$ recognizes $L_1L_2$.
+*Proof:* Assume that $L_1$ and $L_2$ are two regular languages, and NFA $N_1$ and $N_2$ recognizes them respectively. Construct a  new NFA to accept $L_1L_2$ by using multiple $\epsilon \atop \rightarrow$ to connect the accept state(s) of $N_1$ and the start state of $N_2$. The constructed NFA $N$ recognizes $L_1L_2$​.
+
+***
 
 *Thm 2.12* **The class of regular languages is closed under Kleene Star.**
 
-*Proof:* Assume that $L$ is a regular language recognized by $N$. Construct a new NFA to accept $L^*$ by adding a new start state before $N$'s start state, and use multiple $\epsilon \atop \rightarrow$ to connect the accept state(s) of $N$ and the added start state. The constructed NFA $N'$ recognizes $L^*$.
+*Proof:* Assume that $L$ is a regular language recognized by $N$. Construct a new NFA to accept $L^*$ by adding a new start state before $N$'s start state, and use multiple $\epsilon \atop \rightarrow$ to connect the accept state(s) of $N$ and the added start state. The constructed NFA $N'$ recognizes $L^*$​.
+
+***
 
 *Thm 2.13* **The class of regular languages is closed under complement.**
 
@@ -79,7 +85,9 @@ eg.
 
 ***
 
-*Thm 2.15* **A language is regular  $\Harr$ some regular expression describes it.**
+*Thm 2.15* **A language is regular  $\Harr$​ some regular expression describes it.**
+
+***
 
 *Lem 2.16* **If a language is described by a regular expression, it's regular.**
 

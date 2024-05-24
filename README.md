@@ -8,3 +8,7 @@ Course note of *Introduction to the Theory of Computation-2024 Spring* in Comput
 - **ITC(2)**  ---  *Language Relationships, Finite Automaton, DFA & NFA*
 
 - **ITC(3)**  ---  *Equivalence of DFA & NFA, Regular Languages, Regular Expressions*
+
+- **ITC(4)**  ---  *GNFA, Pumping Lemma, Algorithm*
+
+- **ITC(12)** ---  *P/NP/EXP's Relationship, Nondeterministic TM*
