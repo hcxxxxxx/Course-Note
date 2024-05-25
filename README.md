@@ -15,4 +15,6 @@ Course note of *Introduction to the Theory of Computation-2024 Spring* in Comput
 
 - **ITC(06)**  ---  *Bidirectional-tape TM, RAM TM, Equivalence of TM Variants*
 
+- **ITC(07)**  ---  *DTIME, Encoding of a Multitape TM, Universal TM*
+
 - **ITC(12)**  ---  *P/NP/EXP's Relationship, Nondeterministic TM*
