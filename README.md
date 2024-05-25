@@ -1,16 +1,18 @@
 # ITC-2024Spring-Note
 Course note of *Introduction to the Theory of Computation-2024 Spring* in Computer Science, Fudan University.
-> Use Typora to gain a normal preview of the .md , otherwise the mathematical formulas might look weird. v^v
+> Use Typora to gain a normal, LaTeX-friendly preview of the .md, or directly check the .pdf. Otherwise the mathematical formulas might look weird. v^v
 ***
 ## List
-- **ITC(1)**  ---  *Course Content, Big-O Notation, Alphabets & Languages, Encoding of Problems*
+- **ITC(01)**  ---  *Course Content, Big-O Notation, Alphabets & Languages, Encoding of Problems*
 
-- **ITC(2)**  ---  *Language Relationships, Finite Automaton, DFA & NFA*
+- **ITC(02)**  ---  *Language Relationships, Finite Automaton, DFA & NFA*
 
-- **ITC(3)**  ---  *Equivalence of DFA & NFA, Regular Languages, Regular Expressions*
+- **ITC(03)**  ---  *Equivalence of DFA & NFA, Regular Languages, Regular Expressions*
 
-- **ITC(4)**  ---  *GNFA, Pumping Lemma, Algorithm*
+- **ITC(04)**  ---  *GNFA, Pumping Lemma, Algorithm*
 
-- **ITC(5)**  ---  *Turing Decidable & Recognizable, k-tape TM*
+- **ITC(05)**  ---  *Turing Decidable & Recognizable, k-tape TM*
 
-- **ITC(12)** ---  *P/NP/EXP's Relationship, Nondeterministic TM*
+- **ITC(06)**  ---  *Bidirectional-tape TM, RAM TM, Equivalence of TM Variants*
+
+- **ITC(12)**  ---  *P/NP/EXP's Relationship, Nondeterministic TM*
