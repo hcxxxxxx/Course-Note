@@ -146,4 +146,14 @@ Part 1. Put $[\frac{\#}{\#q_0w_1...w_n\#}]$ into $P'$ as the first domino.
 
 Part 2. For every $a,b\in \Gamma$, and every $q,r\in Q$, if $\delta(q,a)=(r,b,R)$, put $[\frac{qa}{br}]$ into $P'$.
 
-Part 3. If $\delta(q,a)=(r,b,L)$, put $[\frac{cqa}{rcb}]$ into $P'$ for every $c\in \Gamma$.
+Part 3. If $\delta(q,a)=(r,b,L)$, put $[\frac{cqa}{rcb}]$ into $P'$ for every $c\in \Gamma$​.
+
+Part 4. For every $a\in \Gamma$, put $[\frac{a}{a}]$ into $P'$.
+
+Part 5. Put $[\frac{\#}{\#}],[\frac{\#}{\sqcup\#}]$ into $P'$.
+
+Part 6. For every $a\in \Gamma$, put $[\frac{aq_{accept}}{q_{accept}}],[\frac{q_{accept}a}{q_{accept}}]$ into $P'$.
+
+Part 7. Put $[\frac{q_{accept}\#\#}{\#}]$ into $P'$.
+
+We claim $M_\alpha$ accepts $w\Harr P'\in MPCP$. 
