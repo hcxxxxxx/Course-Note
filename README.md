@@ -23,5 +23,7 @@ Course note of *Introduction to the Theory of Computation-2024 Spring* in Comput
 
 - **ITC(10)**  ---  *Gödel's Incompleteness Theorem, Peano Arithmetic, Diophantine Equation, Hilbert $10^{th}$ Problem, Complexity Theory*
 
+- **ITC(11)**  ---  *Computational Complexity, P, NP*
+
 - **ITC(12)**  ---  *P/NP/EXP's Relationship, Nondeterministic TM*
 

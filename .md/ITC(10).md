@@ -65,7 +65,7 @@ Since the proof system is complete, the TM $M$ must halt, which implies that $L_
 
 ## Complexity Theory
 
-*Def 5.1* Let $T:\mathbb{N}\rightarrow\mathbb{N}$. Let $DTIME(T(n))$ be the class of languages that can be decided by a TM in time $O(T(n))$.
+*Def 5.1* **Let $T:\mathbb{N}\rightarrow\mathbb{N}$. Let $DTIME(T(n))$ be the class of languages that can be decided by a TM in time $O(T(n))$.**
 $$
 P=\cup_{c\geq1}DTIME(n^c)\\
 EXP=\cup_{c\geq1}DTIME(2^{n^c})
