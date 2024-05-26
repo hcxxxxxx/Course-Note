@@ -34,7 +34,7 @@
 
 ***
 
-*Thm 4.1* **(Universal TM) There exists a multitape TM $U$ s.t. for all $x,\alpha \in \{0,1\}^*$, $U(x,\alpha)=M_\alpha(x)$. Moreover, if $M_\alpha$ halts on input $x$ within $T$ steps, then $U(x,\alpha)$ halts in $O_{M_\alpha}(T\log T)$​ steps.** (Weaker version: $O_{M_\alpha}(T^2)$)
+*Thm 4.1(Universal TM)* **There exists a multitape TM $U$ s.t. for all $x,\alpha \in \{0,1\}^*$, $U(x,\alpha)=M_\alpha(x)$. Moreover, if $M_\alpha$ halts on input $x$ within $T$ steps, then $U(x,\alpha)$ halts in $O_{M_\alpha}(T\log T)$ steps.** (Weaker version: $O_{M_\alpha}(T^2)$)
 
 *Proof of the weaker version:*
 

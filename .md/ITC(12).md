@@ -46,7 +46,7 @@ $$
 
 ***
 
- *Def 5.19* **(Binary-choice NTM)**
+ *Def 5.19(Binary-choice NTM)*
 $$
 M=(Q,\Sigma,\Gamma,\delta_1,\delta_2,q_0,q_{accept},q_{reject}),
 $$
@@ -87,7 +87,7 @@ So, the total running time is $\leq|Q|\times|\Gamma|\times3\times T(n)=O_M(T(n))
 
 ***
 
-*Def 5.23* **(Karp Reduction)** **Let $L,K\subseteq \{0,1\}^*$. Say $L$ is Karp-reducible to $K$, denoted by $L \leq_P K$, if there exists a polynomial-time TM $M$ s.t. for all $x\in \{0,1\}^*$, $x\in L \Harr M(x)\in K$​​.**
+*Def 5.23(Karp Reduction)* **Let $L,K\subseteq \{0,1\}^*$. Say $L$ is Karp-reducible to $K$, denoted by $L \leq_P K$, if there exists a polynomial-time TM $M$ s.t. for all $x\in \{0,1\}^*$, $x\in L \Harr M(x)\in K$.**
 
 - $L \leq_P K \Rightarrow$ **If $K\in P$, then $L\in P$. If $L\notin P$, then $K\notin P$.**
 
@@ -99,11 +99,11 @@ So, the total running time is $\leq|Q|\times|\Gamma|\times3\times T(n)=O_M(T(n))
 
 ***
 
-*Def 5.25* **(NP-Hard)** **$L\subseteq \{0,1\}^*$ is NP-hard if for all language $K\in NP$, $K\leq_P L$​.**
+*Def 5.25(NP-Hard)* **$L\subseteq \{0,1\}^*$ is NP-hard if for all language $K\in NP$, $K\leq_P L$.**
 
 ***
 
-*Def 5.26* **(NP-Complete)** **$L$ is NP-complete if $L$ is in NP, and $L$​ is NP-hard.** 
+*Def 5.26(NP-Complete)* **$L$ is NP-complete if $L$ is in NP, and $L$ is NP-hard.** 
 
 - $NP$-$complete=NP\cap NP$-$hard$
 
@@ -128,7 +128,7 @@ So, the total running time is $\leq|Q|\times|\Gamma|\times3\times T(n)=O_M(T(n))
 - Clause: OR(Disjunction) of one or more literals. eg. $\neg x\vee y, \neg y \vee z,...$
 - Formula: AND(Conjunction) of one or more clauses.
 
-$SAT=\{<\phi>|\phi \ is\ satisfiable\}$​
+$SAT=\{\langle \phi\rangle|\phi \ is\ satisfiable\}$​
 
 ***
 

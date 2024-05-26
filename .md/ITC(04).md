@@ -79,7 +79,7 @@ eg. 3-state DFA $?\atop \rightarrow$ 5-state GNFA $?\atop \rightarrow$ 4-state G
 
 ***
 
-*Lem 2.17* **(Pumping Lemma) If $A$ is a regular language, then $\exist p\in \mathbb{N}$, s.t. for any string $s$ of length at least $p$, $\exist x,y,z\in \Sigma^*$ s.t. $s=xyz$ and**
+*Lem 2.17(Pumping Lemma)* **If $A$ is a regular language, then $\exist p\in \mathbb{N}$, s.t. for any string $s$ of length at least $p$, $\exist x,y,z\in \Sigma^*$ s.t. $s=xyz$ and**
 
 1. $xy^iz\in A$ for every $i\geq 0$
 2. $|y|>0$
@@ -108,7 +108,7 @@ Let $x=s_1s_2...s_{j-1}$, $y=s_js_{j+1}...s_{l-1}$, $z=s_ls_{l+1}...s_n$
 
 **An algorithm is a mechanical process to be followed in calculations or other problem-solving operation.**
 
-*Def 3.1* **(Turing Machine)** **A Turing Machine is a 7-tuple $(Q,\Sigma,\Gamma,\delta,q_0,q_{accept},q_{reject})$, where**
+*Def 3.1(Turing Machine)* **A Turing Machine is a 7-tuple $(Q,\Sigma,\Gamma,\delta,q_0,q_{accept},q_{reject})$, where**
 
 1. $Q$ is the set of states
 2. $\Sigma$ is the input alphabet, $\sqcup \notin \Sigma$ 
