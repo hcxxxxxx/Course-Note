@@ -34,7 +34,7 @@ eg. Decide $L=\{0^{2^n}|n\geq 0\}$, where $\Sigma =\{0\}$
 *Def 3.5* **Let $L\subseteq \{0,1\}^*$. Call $L$​ (Turing) recognizable if there is some TM that recognizes it.** 
 
 - Obviously, every (Turing) decidable language is (Turing) recognizable.
-- The converse is not true. eg. $L=\{<M,x>|M\ halts\ on\ x\}$
+- The converse is not true. eg. $L=\{\langle M,x\rangle|M\ halts\ on\ x\}$
 
 ***
 

@@ -17,4 +17,7 @@ Course note of *Introduction to the Theory of Computation-2024 Spring* in Comput
 
 - **ITC(07)**  ---  *DTIME, Encoding of a Multitape TM, Universal TM*
 
+- **ITC(08)**  ---  *Reduction, Turing Halting Problem, $L_{halt}$, $L_{flip}$, $L_{accept}$, $L_{empty}$, $L_{regular}$, $L_{equal}$*
+
 - **ITC(12)**  ---  *P/NP/EXP's Relationship, Nondeterministic TM*
+
