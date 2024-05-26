@@ -85,7 +85,7 @@ $$
 
 *Def 1.5* **A String (over an alphabet) is a finite sequence of symbols from the alphabet.**
 
-- $\Sigma^*={\cup\atop n \geq 0}\Sigma ^n$
+- $\Sigma^*=\cup_{n \geq 0}\Sigma ^n$
 - $\epsilon$ : Empty string
 
 eg. $\{0,1\}^*=\{\epsilon ,0,1,00,01,...\}$​

@@ -68,15 +68,15 @@ So, the total running time is $\leq|Q|\times|\Gamma|\times3\times T(n)=O_M(T(n))
 
 ***
 
-*Thm 5.22* $NP= {\cup \atop {c\geq 1}} NTIME(n^c)$
+*Thm 5.22* $NP= \cup_{c\geq 1} NTIME(n^c)$
 
 *Proof:* 
 
-1. $({\cup \atop {c\geq1}}NTIME(n^c)\subseteq NP)$ Let $L\in {\cup \atop {c\geq1}}NTIME(n^c)$, we will prove $L\in NP$.
+1. $(\cup_{c\geq1}NTIME(n^c)\subseteq NP)$ Let $L\in\cup_{c\geq1}NTIME(n^c)$, we will prove $L\in NP$.
 
    Since $L\in NTIME(n^c)$, there exists a binary-choice NTM $N$ that decides $L$ in time $d\cdot n^c$, where $d>0$ is a constant. Let $p(n)=d\cdot n^c$, and let the certificate $w\in \{0,1\}^{p(n)}$ indicates which transition function to apply. The verifier checks if $N$ accepts $x$​ (given the certificate).
 
-2. $(NP \subseteq {\cup \atop {c\geq1}}NTIME(n^c))$ Let $L\in NP$. We will prove $L\in {\cup \atop {c\geq1}}NTIME(n^c)$.
+2. $(NP \subseteq \cup_{c\geq1}NTIME(n^c))$ Let $L\in NP$. We will prove $L\in \cup_{c\geq1}NTIME(n^c)$.
 
    ...... On input $x$, construct an NTM as follows:
 

@@ -10,7 +10,7 @@
 
 ***
 
-*Def 3.14* $P={\cup\atop c\geq1}DTIME(n^c)$​
+*Def 3.14* $P=\cup_{c\geq1}DTIME(n^c)$​
 
 - $L\in DTIME(n^{100})\Rightarrow L\in P$
 - $All\ Languages\supseteq Decidable\ Languages\supseteq P\supseteq Regular\ Languages$

@@ -21,5 +21,7 @@ Course note of *Introduction to the Theory of Computation-2024 Spring* in Comput
 
 - **ITC(09)**  ---  *Reduction, Oracle TM, Rice's Theorem, PCP*
 
+- **ITC(10)**  ---  *Gödel's Incompleteness Theorem, Peano Arithmetic, Diophantine Equation, Hilbert $10^{th}$ Problem, Complexity Theory*
+
 - **ITC(12)**  ---  *P/NP/EXP's Relationship, Nondeterministic TM*
 
