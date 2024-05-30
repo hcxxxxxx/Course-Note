@@ -27,3 +27,5 @@ Course note of *Introduction to the Theory of Computation-2024 Spring* in Comput
 
 - **ITC(12)**  ---  *P/NP/EXP's Relationship, Nondeterministic TM*
 
+- **ITC(13)**  ---  *SAT, Cook-Levin Theorem & Proof, 3SAT, INTEGERPROG*
+
