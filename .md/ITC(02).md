@@ -23,6 +23,38 @@ $$
 
 ## Finite Automaton
 
+eg. Decide if $w|2$.
+$$
+L=\{w\in\{0,1\}^*|w=w_1w_2...w_n,w_n=0\}
+$$
+
+```mermaid
+stateDiagram
+direction LR
+[*] --> q0(accept)
+q0(accept) --> q0(accept):0
+q0(accept) --> q1:1
+q1 --> q0(accept):0
+q1 --> q1:1
+```
+
+eg. Decide if $w|3$.
+$$
+L=\{w\in\{0,1\}^*|w=w_1w_2...w_n,w_n+2\cdot w_{n-1}+...+2^{n-1}\cdot w_1=0(mod\ 3)\}
+$$
+
+```mermaid
+stateDiagram
+direction LR
+[*] --> q0(accept)
+q0(accept) --> q0(accept):0
+q0(accept) --> q1:1
+q1 --> q0(accept):1
+q1 --> q2:0
+q2 --> q1:0
+q2 -->q2:1
+```
+
 *Def 2.1* **A finite automaton is a 5-tuple $(Q,\Sigma,\delta,q_0,F)$, where**
 
 1. $Q$ is a finite set called the states.
@@ -44,6 +76,40 @@ $$
 *Def 2.3* **If L is the set of strings that M accepts, we say L is the language of M, and write $L(M)=L$. We say M recognizes/decides/accepts L.**
 
 - If M accepts no strings, it recognizes one language, namely, the empty language.
+
+eg. $L=\{w\in\{0,1\}^*|w=w_1...w_n,w_1\neq w_n\}$
+
+```mermaid
+stateDiagram
+direction LR
+[*]-->q0
+q0-->q1:0
+q0-->q3:1
+q1-->q1:0
+q1-->q2(accept):1
+q2(accept)-->q2(accept):1
+q2(accept)-->q1:0
+q3-->q3:1
+q3-->q4(accept):0
+q4(accept)-->q4(accept):0
+q4(accept)-->q3:1
+```
+
+eg. $L=\{w\in\{0,1\}^*|the\ number\ of\ 1s\ is\ a\ multiple\ of\ 3\}$
+
+```mermaid
+stateDiagram
+direction LR
+[*]-->q0(accept)
+q0(accept)-->q0(accept):0
+q0(accept)-->q1:1
+q1-->q1:0
+q1-->q2:1
+q2-->q2:0
+q2-->q0(accept):1
+```
+
+
 
 ***
 
@@ -87,6 +153,33 @@ $$
 
 - **DFA: Deterministic Finite Automaton**
 - **NFA: Nondeterministic Finite Automaton**
+
+eg. Design an NFA that accepts the set of strings containing a 0 in the third position from the end.
+
+```mermaid
+stateDiagram
+direction LR
+[*]-->q0
+q0-->q0:0,1
+q0-->q1:0
+q1-->q2:0,1
+q2-->q3(accept):0,1
+```
+
+eg. $L=\{0^k|k\ is\ a\ multiple\ of\ 2\ or\ 3\}$
+
+```mermaid
+stateDiagram
+direction LR
+[*]-->q0
+q0-->q1(accept):ε
+q1(accept)-->q2:0
+q2-->q1(accept):0
+q0-->q3(accept):ε
+q3(accept)-->q4:0
+q4-->q5:0
+q5-->q3(accept):0
+```
 
 ***
 
