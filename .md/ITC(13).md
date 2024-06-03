@@ -7,7 +7,7 @@
 
 2. $NP=\cup_{c\geq 1}NTIME(n^c)$
 
-- An equivalent definitions of NP
+- An equivalent definition of NP
   - $L\in NP \Harr \exist$ *polynomial* $p:\mathbb{N}\rightarrow \mathbb{N}$ and $\exist$ *poly-time TM* $M$ s.t.
     1. $x\in L$ if $\exist w\in \{0,1\}^{P(|x|)}$ and $M(x,w)=1$
     2. $x\notin L$ if $\forall w\in \{0,1\}^{P(|x|)}$ and $M(x,w)=0$
@@ -189,7 +189,7 @@ Let $C=l_1\vee l_2\vee ... \vee l_k,k\geq 4$, where $l_i\in\{x_1,\bar{x_1},...,x
 
 Replace $C$ by
 $$
-C'=(l_1\vee l_2\vee z_1)\wedge(\bar{z_1}\vee l_3\vee z_2)\wedge (\bar{z_2}\vee l_4\vee z_3)\wedge ...\wedge (\bar{z_{k-2}}\vee l_k\vee z_{k-1})
+C'=(l_1\vee l_2\vee z_1)\wedge(\bar{z_1}\vee l_3\vee z_2)\wedge (\bar{z_2}\vee l_4\vee z_3)\wedge ...\wedge (\bar{z_{k-3}}\vee l_{k-1}\vee l_k)
 $$
 ($z_1,z_2,...,z_{k-2}$ are new variables)
 
