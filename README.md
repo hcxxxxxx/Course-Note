@@ -1,4 +1,4 @@
-# ITC-2024Spring-Note
+# ITC-2024Spring
 Course note of *Introduction to the Theory of Computation-2024 Spring* in Computer Science, Fudan University.
 > Use Typora to gain a normal, LaTeX-friendly preview of the .md, or directly check the .pdf. Otherwise the mathematical formulas might look weird. v^v
 ***
