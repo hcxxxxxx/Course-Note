@@ -29,7 +29,7 @@ $$
 $$
 \forall a,b\in B:a+b=(a\wedge b')\vee(a'\wedge b),a\cdot b=a\wedge b
 $$
-则在$[B;\vee,\wedge,']$上定义的$[B;+,\cdot]$为可交换的有单位元环.称这样的环为**布尔环**.
+​		则在$[B;\vee,\wedge,']$上定义的$[B;+,\cdot]$为可交换的有单位元环.称这样的环为**布尔环**.
 
 *Def 16.12* 一个有单位元环,如果它的每个元素都是幂等的,则称该环为**布尔环**.
 
@@ -37,17 +37,21 @@ $$
 
 ## Theorem
 
-*Thm 16.1* $(L;\leq)$为格,则对$\forall a,b\in L$,有:(1)$a\leq a\vee b,b\leq a\vee b,a\wedge b\leq a,a\wedge b\leq b$;(2)$a\leq b\Harr a\vee b=b$;(3)$a\leq b\Harr a\wedge b=a$.
+*Thm 16.1* $(L;\leq)$为格,则对$\forall a,b\in L$,有:
+
+​		(1)$a\leq a\vee b,b\leq a\vee b,a\wedge b\leq a,a\wedge b\leq b$;
+
+​		(2)$a\leq b\Harr a\vee b=b$;(3)$a\leq b\Harr a\wedge b=a$.
 
 *Thm 16.2* $(L;\leq)$为格,$\forall a,b,c\in L$有:
 
-​	$L_1(幂等律):a\vee a=a,a\wedge a=a$
+​		$L_1(幂等律):a\vee a=a,a\wedge a=a$
 
-​	$L_2(交换律):a\vee b=b\vee a,a\wedge b=b\wedge a$
+​		$L_2(交换律):a\vee b=b\vee a,a\wedge b=b\wedge a$
 
-​	$L_3(结合律):a\vee(b\vee c)=(a\vee b)\vee c,a\wedge(b\wedge c)=(a\wedge b)\wedge c$
+​		$L_3(结合律):a\vee(b\vee c)=(a\vee b)\vee c,a\wedge(b\wedge c)=(a\wedge b)\wedge c$
 
-​	$L_4(吸收率):a\vee(a\wedge b)=a,a\wedge(a\vee b)=a$
+​		$L_4(吸收率):a\vee(a\wedge b)=a,a\wedge(a\vee b)=a$
 
 *Lem 16.1* 在$[L;\vee,\wedge]$中二元运算$\vee,\wedge$满足$L_1\sim L_4$,则对$\forall a,b\in L,a\wedge b=a\Harr a\vee b=b$.
 
@@ -55,5 +59,60 @@ $$
 
 *Thm 16.3* 如*Lem 16.2*所得之偏序集$(L;\leq)$为格.
 
+*Thm 16.4* 格$[L;\vee,\wedge]$中,$\forall a,b,c\in L$,当$b\leq c$时有$a\wedge b\leq a\wedge c,a\vee b\leq a\vee c$.
 
+*Thm 16.5* 格$[L;\vee,\wedge]$与格$[S;\vee,\wedge]$同态,$\phi$为同态映射,则$\phi$同时是保序映射,即对$\forall a,b\in L$,当$a\leq b$时$\phi(a)\leq \phi(b)$.
 
+*Thm 16.6* $\phi$是格$L$到$S$的一一对应,则$\phi$是同构映射当且仅当:$\forall a,b\in L,a\leq b\Harr \phi(a)\leq\phi(b)$.
+
+*Thm 16.7(对偶原理)* 
+
+​		(1)设$p$是对任意偏序集都为真的命题.$p'$为将$p$中所有$\leq,\geq$对换得到的对偶命题,则$p'$对任意偏序集也都为真.
+
+​		(2)设$p$是从格$[B;\vee,\wedge]$中推出的命题,$p'$是将$p$中$\vee$与$\wedge$对换得到的对偶命题,则$p'$对格$[B;\wedge,\vee]$也为真.
+
+*Thm 16.8* $[L;\vee,\wedge]$为有界格,则对$\forall a\in L$有:$a\vee1=1,a\wedge0=0,a\wedge1=a,a\vee0=a$.
+
+- 对任意格,有分配不等式:$\forall a,b,c\in L:$
+
+  ​	(1)$a\vee(b\wedge c)\leq(a\vee b)\wedge(a\vee c)$
+
+  ​	(2)$(a\wedge b)\vee(a\wedge c)\leq a\wedge(b\vee c)$
+
+*Thm 16.9* $[L;\vee,\wedge]$​为任意格,则下述条件等价:
+
+​		(1)对$\forall a,b,c\in L$有$a\wedge(b\vee c)=(a\wedge b)\vee(a\wedge c)$
+
+​		(2)对$\forall a,b,c\in L$有$a\vee(b\wedge c)=(a\vee b)\wedge(a\vee c)$
+
+​		(3)对$\forall a,b,c\in L$有$(a\wedge b)\vee(a\wedge c)\vee(b\wedge c)=(a\vee b)\wedge(a\vee c)\wedge(b\vee c)$
+
+​		(4)$L$不含与$M_5$或$N_5$同构的子格
+
+<img src="C:\Users\洪成勋\AppData\Roaming\Typora\typora-user-images\image-20240605212317227.png" alt="image-20240605212317227" style="zoom: 25%;" />
+
+*Thm 16.10* 布尔格$(B;\leq)$中,$\forall a,b\in B$有:
+
+​		(1)$a$的补元是唯一的
+
+​		(2)$(a\wedge b)'=a'\vee b',(a\vee b)'=a'\wedge b'$
+
+​		(3)$a\wedge b=0\Harr a\leq b',b\leq a'$
+
+*Thm 16.11* $B$至少包含2个元素,$\vee$和$\wedge$为$B$上的两个二元运算,$'$为$B$上的一元运算.若对$\forall a,b,c\in B$满足:
+
+​		$H_1(交换律):a\vee b=b\vee a,a\wedge b=b\wedge a$
+
+​		$H_2(分配律):a\vee(b\wedge c)=(a\vee b)\wedge(a\vee c),a\wedge(b\vee c)=(a\wedge b)\vee(a\wedge c)$
+
+​		$H_3(有界性):\exist 0\in B:a\vee0=a,a\wedge0=0;\exist1\in B:a\wedge1=a,a\vee1=1$
+
+​		$H_4(有补性):\forall a\in B,\exist a'\in B:a\wedge a'=0,a\vee a'=1$
+
+​		则$[B;\vee,\wedge,']$为布尔代数.
+
+- 推论1:任一有限布尔代数必为$2^n(n\geq1)$元的.
+- 推论2:$\forall n\geq 1,n\in \mathbb{N}$,必定能找到布尔代数$B:|B|=2^n$.
+- 推论3:任一$2^n$元布尔代数都同构于$[B;\vee,\wedge,']$.
+
+*Thm 16.12* $[B;+,\cdot]$为具有幂等律的环,则对$\forall a\in B$,有$2a=0$.
